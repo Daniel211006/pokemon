@@ -7,8 +7,8 @@
 }
 
 :root{
-    --primary-color: #f5cf06;
-    --secundary-color: #8e4106;
+    --primary-color: #080807;
+    --secundary-color: #f5f1f1;
 }
 
 body{
@@ -25,6 +25,9 @@ body{
     grid-template-columns: repeat(12, 1fr);
     width: 90vw;
     margin: auto;
+    a img{
+        width: 50px;
+    }
 }
 header{
     margin-top: 70px;
@@ -96,10 +99,13 @@ main{
     font-size: 1rem;
 }
 .pikachu-image{
+    width: 100vw;
+    height: 100vh;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: -5;
 }
 
 @media(max-width:960px){
